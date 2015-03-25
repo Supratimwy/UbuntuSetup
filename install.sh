@@ -5,11 +5,13 @@ clear
 echo "The sub-folders will be moved to the home folder"
 
 
-cp -avr android-ndk/ ~/
+cp -avr tools/android-ndk/ ~/
 
-cp -avr android-studio/ ~/
+cp -avr tools/android-studio/ ~/
 
-cp -avr cm-android/ ~/
+echo "The git repo for cm-android is cloned"
+
+echo | git clone https://github.com/webyog/cm-android.git
 
 echo "The android sdk will be installed to the opt directory"
 
