@@ -2,7 +2,9 @@
 
 clear
 
-echo "Running the installation of the powerline fonts"
+echo "Downloading and running the installation of the powerline fonts"
+
+git clone https://github.com/powerline/fonts.git
 
 chmod a+x ./fonts/install.sh
 
